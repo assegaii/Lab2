@@ -51,14 +51,14 @@ build cmake_object_order_depends_target_ip_filter: phony || .
 
 build CMakeFiles/ip_filter.dir/ip_filter.cpp.obj: CXX_COMPILER__ip_filter_unscanned_Debug D$:/Study/C++/Labs/Lab2/ip_filter.cpp || cmake_object_order_depends_target_ip_filter
   DEP_FILE = CMakeFiles\ip_filter.dir\ip_filter.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14 -std=gnu++14
   INCLUDES = -ID:/Study/C++/Labs/Lab2/include
   OBJECT_DIR = CMakeFiles\ip_filter.dir
   OBJECT_FILE_DIR = CMakeFiles\ip_filter.dir
 
 build CMakeFiles/ip_filter.dir/lib.cpp.obj: CXX_COMPILER__ip_filter_unscanned_Debug D$:/Study/C++/Labs/Lab2/lib.cpp || cmake_object_order_depends_target_ip_filter
   DEP_FILE = CMakeFiles\ip_filter.dir\lib.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14 -std=gnu++14
   INCLUDES = -ID:/Study/C++/Labs/Lab2/include
   OBJECT_DIR = CMakeFiles\ip_filter.dir
   OBJECT_FILE_DIR = CMakeFiles\ip_filter.dir
@@ -72,7 +72,7 @@ build CMakeFiles/ip_filter.dir/lib.cpp.obj: CXX_COMPILER__ip_filter_unscanned_De
 # Link the executable ip_filter.exe
 
 build ip_filter.exe: CXX_EXECUTABLE_LINKER__ip_filter_Debug CMakeFiles/ip_filter.dir/ip_filter.cpp.obj CMakeFiles/ip_filter.dir/lib.cpp.obj
-  FLAGS = -g
+  FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ip_filter.dir
   POST_BUILD = cd .
@@ -92,14 +92,14 @@ build cmake_object_order_depends_target_tests: phony || cmake_object_order_depen
 
 build CMakeFiles/tests.dir/test_ip_filter.cpp.obj: CXX_COMPILER__tests_unscanned_Debug D$:/Study/C++/Labs/Lab2/test_ip_filter.cpp || cmake_object_order_depends_target_tests
   DEP_FILE = CMakeFiles\tests.dir\test_ip_filter.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14 -std=gnu++14
   INCLUDES = -ID:/Study/C++/Labs/Lab2/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest
   OBJECT_DIR = CMakeFiles\tests.dir
   OBJECT_FILE_DIR = CMakeFiles\tests.dir
 
 build CMakeFiles/tests.dir/lib.cpp.obj: CXX_COMPILER__tests_unscanned_Debug D$:/Study/C++/Labs/Lab2/lib.cpp || cmake_object_order_depends_target_tests
   DEP_FILE = CMakeFiles\tests.dir\lib.cpp.obj.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14 -std=gnu++14
   INCLUDES = -ID:/Study/C++/Labs/Lab2/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest
   OBJECT_DIR = CMakeFiles\tests.dir
   OBJECT_FILE_DIR = CMakeFiles\tests.dir
@@ -113,7 +113,7 @@ build CMakeFiles/tests.dir/lib.cpp.obj: CXX_COMPILER__tests_unscanned_Debug D$:/
 # Link the executable tests.exe
 
 build tests.exe: CXX_EXECUTABLE_LINKER__tests_Debug CMakeFiles/tests.dir/test_ip_filter.cpp.obj CMakeFiles/tests.dir/lib.cpp.obj | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
-  FLAGS = -g
+  FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14
   LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\tests.dir
   POST_BUILD = cd .
@@ -737,7 +737,7 @@ build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depen
 
 build external/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_unscanned_Debug D$:/Study/C++/Labs/Lab2/external/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
   DEP_FILE = external\googletest\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d
-  FLAGS = -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14 -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -ID:/Study/C++/Labs/Lab2/include -ID:/Study/C++/Labs/Lab2/external/googletest/googlemock/include -ID:/Study/C++/Labs/Lab2/external/googletest/googlemock -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest
   OBJECT_DIR = external\googletest\googlemock\CMakeFiles\gmock.dir
   OBJECT_FILE_DIR = external\googletest\googlemock\CMakeFiles\gmock.dir\src
@@ -751,7 +751,7 @@ build external/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: 
 # Link the static library lib\libgmock.a
 
 build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug external/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj || lib/libgtest.a
-  LANGUAGE_COMPILE_FLAGS = -g
+  LANGUAGE_COMPILE_FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14
   OBJECT_DIR = external\googletest\googlemock\CMakeFiles\gmock.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -769,7 +769,7 @@ build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_
 
 build external/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_unscanned_Debug D$:/Study/C++/Labs/Lab2/external/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
   DEP_FILE = external\googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d
-  FLAGS = -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14 -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -isystem D:/Study/C++/Labs/Lab2/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googlemock/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googlemock -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest
   OBJECT_DIR = external\googletest\googlemock\CMakeFiles\gmock_main.dir
   OBJECT_FILE_DIR = external\googletest\googlemock\CMakeFiles\gmock_main.dir\src
@@ -783,7 +783,7 @@ build external/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc
 # Link the static library lib\libgmock_main.a
 
 build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug external/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj || lib/libgmock.a lib/libgtest.a
-  LANGUAGE_COMPILE_FLAGS = -g
+  LANGUAGE_COMPILE_FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14
   OBJECT_DIR = external\googletest\googlemock\CMakeFiles\gmock_main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -907,7 +907,7 @@ build cmake_object_order_depends_target_gtest: phony || .
 
 build external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_unscanned_Debug D$:/Study/C++/Labs/Lab2/external/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
   DEP_FILE = external\googletest\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d
-  FLAGS = -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14 -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -ID:/Study/C++/Labs/Lab2/include -ID:/Study/C++/Labs/Lab2/external/googletest/googletest/include -ID:/Study/C++/Labs/Lab2/external/googletest/googletest
   OBJECT_DIR = external\googletest\googletest\CMakeFiles\gtest.dir
   OBJECT_FILE_DIR = external\googletest\googletest\CMakeFiles\gtest.dir\src
@@ -921,7 +921,7 @@ build external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: 
 # Link the static library lib\libgtest.a
 
 build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
-  LANGUAGE_COMPILE_FLAGS = -g
+  LANGUAGE_COMPILE_FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14
   OBJECT_DIR = external\googletest\googletest\CMakeFiles\gtest.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -939,7 +939,7 @@ build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_
 
 build external/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_unscanned_Debug D$:/Study/C++/Labs/Lab2/external/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   DEP_FILE = external\googletest\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d
-  FLAGS = -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14 -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -ID:/Study/C++/Labs/Lab2/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest
   OBJECT_DIR = external\googletest\googletest\CMakeFiles\gtest_main.dir
   OBJECT_FILE_DIR = external\googletest\googletest\CMakeFiles\gtest_main.dir\src
@@ -953,7 +953,7 @@ build external/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc
 # Link the static library lib\libgtest_main.a
 
 build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug external/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj || lib/libgtest.a
-  LANGUAGE_COMPILE_FLAGS = -g
+  LANGUAGE_COMPILE_FLAGS = -static-libgcc -static-libstdc++ -std=gnu++14
   OBJECT_DIR = external\googletest\googletest\CMakeFiles\gtest_main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

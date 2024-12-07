@@ -1,49 +1,49 @@
 [
 {
   "directory": "D:/Study/C++/Labs/Lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -g -std=gnu++14 -o CMakeFiles\\ip_filter.dir\\ip_filter.cpp.obj -c D:\\Study\\C++\\Labs\\Lab2\\ip_filter.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -static-libgcc -static-libstdc++ -std=gnu++14 -std=gnu++14 -o CMakeFiles\\ip_filter.dir\\ip_filter.cpp.obj -c D:\\Study\\C++\\Labs\\Lab2\\ip_filter.cpp",
   "file": "D:\\Study\\C++\\Labs\\Lab2\\ip_filter.cpp",
   "output": "CMakeFiles\\ip_filter.dir\\ip_filter.cpp.obj"
 },
 {
   "directory": "D:/Study/C++/Labs/Lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -g -std=gnu++14 -o CMakeFiles\\ip_filter.dir\\lib.cpp.obj -c D:\\Study\\C++\\Labs\\Lab2\\lib.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -static-libgcc -static-libstdc++ -std=gnu++14 -std=gnu++14 -o CMakeFiles\\ip_filter.dir\\lib.cpp.obj -c D:\\Study\\C++\\Labs\\Lab2\\lib.cpp",
   "file": "D:\\Study\\C++\\Labs\\Lab2\\lib.cpp",
   "output": "CMakeFiles\\ip_filter.dir\\lib.cpp.obj"
 },
 {
   "directory": "D:/Study/C++/Labs/Lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest -g -std=gnu++14 -o CMakeFiles\\tests.dir\\test_ip_filter.cpp.obj -c D:\\Study\\C++\\Labs\\Lab2\\test_ip_filter.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest -static-libgcc -static-libstdc++ -std=gnu++14 -std=gnu++14 -o CMakeFiles\\tests.dir\\test_ip_filter.cpp.obj -c D:\\Study\\C++\\Labs\\Lab2\\test_ip_filter.cpp",
   "file": "D:\\Study\\C++\\Labs\\Lab2\\test_ip_filter.cpp",
   "output": "CMakeFiles\\tests.dir\\test_ip_filter.cpp.obj"
 },
 {
   "directory": "D:/Study/C++/Labs/Lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest -g -std=gnu++14 -o CMakeFiles\\tests.dir\\lib.cpp.obj -c D:\\Study\\C++\\Labs\\Lab2\\lib.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest -static-libgcc -static-libstdc++ -std=gnu++14 -std=gnu++14 -o CMakeFiles\\tests.dir\\lib.cpp.obj -c D:\\Study\\C++\\Labs\\Lab2\\lib.cpp",
   "file": "D:\\Study\\C++\\Labs\\Lab2\\lib.cpp",
   "output": "CMakeFiles\\tests.dir\\lib.cpp.obj"
 },
 {
   "directory": "D:/Study/C++/Labs/Lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -ID:/Study/C++/Labs/Lab2/external/googletest/googlemock/include -ID:/Study/C++/Labs/Lab2/external/googletest/googlemock -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o external\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c D:\\Study\\C++\\Labs\\Lab2\\external\\googletest\\googlemock\\src\\gmock-all.cc",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -ID:/Study/C++/Labs/Lab2/external/googletest/googlemock/include -ID:/Study/C++/Labs/Lab2/external/googletest/googlemock -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest -static-libgcc -static-libstdc++ -std=gnu++14 -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o external\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c D:\\Study\\C++\\Labs\\Lab2\\external\\googletest\\googlemock\\src\\gmock-all.cc",
   "file": "D:\\Study\\C++\\Labs\\Lab2\\external\\googletest\\googlemock\\src\\gmock-all.cc",
   "output": "external\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj"
 },
 {
   "directory": "D:/Study/C++/Labs/Lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -isystem D:/Study/C++/Labs/Lab2/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googlemock/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googlemock -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o external\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c D:\\Study\\C++\\Labs\\Lab2\\external\\googletest\\googlemock\\src\\gmock_main.cc",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -isystem D:/Study/C++/Labs/Lab2/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googlemock/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googlemock -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest -static-libgcc -static-libstdc++ -std=gnu++14 -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o external\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c D:\\Study\\C++\\Labs\\Lab2\\external\\googletest\\googlemock\\src\\gmock_main.cc",
   "file": "D:\\Study\\C++\\Labs\\Lab2\\external\\googletest\\googlemock\\src\\gmock_main.cc",
   "output": "external\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj"
 },
 {
   "directory": "D:/Study/C++/Labs/Lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -ID:/Study/C++/Labs/Lab2/external/googletest/googletest/include -ID:/Study/C++/Labs/Lab2/external/googletest/googletest -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o external\\googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c D:\\Study\\C++\\Labs\\Lab2\\external\\googletest\\googletest\\src\\gtest-all.cc",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -ID:/Study/C++/Labs/Lab2/external/googletest/googletest/include -ID:/Study/C++/Labs/Lab2/external/googletest/googletest -static-libgcc -static-libstdc++ -std=gnu++14 -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o external\\googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c D:\\Study\\C++\\Labs\\Lab2\\external\\googletest\\googletest\\src\\gtest-all.cc",
   "file": "D:\\Study\\C++\\Labs\\Lab2\\external\\googletest\\googletest\\src\\gtest-all.cc",
   "output": "external\\googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj"
 },
 {
   "directory": "D:/Study/C++/Labs/Lab2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest -g -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o external\\googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c D:\\Study\\C++\\Labs\\Lab2\\external\\googletest\\googletest\\src\\gtest_main.cc",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest/include -isystem D:/Study/C++/Labs/Lab2/external/googletest/googletest -static-libgcc -static-libstdc++ -std=gnu++14 -std=c++14 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o external\\googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c D:\\Study\\C++\\Labs\\Lab2\\external\\googletest\\googletest\\src\\gtest_main.cc",
   "file": "D:\\Study\\C++\\Labs\\Lab2\\external\\googletest\\googletest\\src\\gtest_main.cc",
   "output": "external\\googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj"
 }

@@ -2,6 +2,11 @@ cmake_minimum_required(VERSION 3.10)
 set(PATCH_VERSION "1" CACHE INTERNAL "Patch version")
 set(PROJECT_VESRION 1.0.${PATCH_VERSION})
 
+# Для Debug:
+set(CMAKE_CXX_FLAGS_DEBUG "-static-libgcc -static-libstdc++ -std=gnu++14")
+
+# Для Release:
+set(CMAKE_CXX_FLAGS_RELEASE "-static-libgcc -static-libstdc++ -std=gnu++14")
 
 # Указываем имя проекта, версию и язык
 project(ip_filter VERSION ${PROJECT_VESRION})
