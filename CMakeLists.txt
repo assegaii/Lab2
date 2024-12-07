@@ -35,6 +35,9 @@ if(WIN32)
     add_test(NAME SortingTest COMMAND tests.exe --gtest_filter=SortingTest.ReverseLexicographical)
     add_test(NAME FilterTest COMMAND tests.exe --gtest_filter=FilterTest.FirstByteEqualTo1)
 
+    # Установка исполняемых файлов
+    install(TARGETS ip_filter tests DESTINATION bin)
+    
     set(CPACK_GENERATOR NSIS)
     set(CPACK_PACKAGE_EXECUTABLES "ip_filter.exe" "ip_filter")
     set(CPACK_PACKAGE_FILE_NAME "ip_filter-${PROJECT_VERSION}-Windows")
