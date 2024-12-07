@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/Study/C++/Labs/Lab2/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -ID:/Study/C++/Labs/Lab2/include -I/include -g -std=gnu++11 -o CMakeFiles\\ip_filter.dir\\ip_filter.cpp.obj -c D:\\Study\\C++\\Labs\\Lab2\\ip_filter.cpp",
+  "file": "D:\\Study\\C++\\Labs\\Lab2\\ip_filter.cpp",
+  "output": "CMakeFiles\\ip_filter.dir\\ip_filter.cpp.obj"
+},
+{
+  "directory": "D:/Study/C++/Labs/Lab2/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -ID:/Study/C++/Labs/Lab2/include -I/include -g -std=gnu++14 -o test\\CMakeFiles\\test_ip_filter.dir\\test_ip_filter.cpp.obj -c D:\\Study\\C++\\Labs\\Lab2\\test\\test_ip_filter.cpp",
+  "file": "D:\\Study\\C++\\Labs\\Lab2\\test\\test_ip_filter.cpp",
+  "output": "test\\CMakeFiles\\test_ip_filter.dir\\test_ip_filter.cpp.obj"
+}
+]
