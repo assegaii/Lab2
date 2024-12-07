@@ -6,7 +6,7 @@
 
 int main() {
     // Чтение из файла
-    std::ifstream file("ip_filter.tsv");
+    std::ifstream file("../ip_filter.tsv");
     if (!file.is_open()) {
         std::cerr << "Ошибка: не удалось открыть файл ip_filter.tsv" << std::endl;
         return 1;

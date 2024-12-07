@@ -1,4 +1,4 @@
-SortingTest 6 0.00240135
-ParseIPTest 3 0.00493753
-FilterTest 3 0.0040924
+SortingTest 8 0.00465655
+ParseIPTest 5 0.0857369
+FilterTest 5 0.00658876
 ---

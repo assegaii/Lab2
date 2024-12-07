@@ -36,7 +36,9 @@ if(WIN32)
     add_test(NAME FilterTest COMMAND tests.exe --gtest_filter=FilterTest.FirstByteEqualTo1)
 
     set(CPACK_GENERATOR NSIS)
+    set(CPACK_PACKAGE_EXECUTABLES "ip_filter.exe" "ip_filter")
     set(CPACK_PACKAGE_FILE_NAME "ip_filter-${PROJECT_VERSION}-Windows")
+    
 
 elseif(UNIX)
     # Для Linux (Ubuntu)
@@ -68,7 +70,7 @@ enable_testing()
 
 
 
-# Настройки для пакета (если нужно упаковать проект)
+# Настройки для пакета
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
