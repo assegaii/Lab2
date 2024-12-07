@@ -1,0 +1,84 @@
+Start testing: Dec 07 08:05 Томск (зима)
+----------------------------------------------------------
+1/3 Testing: ParseIPTest
+1/3 Test: ParseIPTest
+Command: "D:/Study/C++/Labs/Lab2/build/tests.exe" "--gtest_filter=ParseIPTest.ValidIP"
+Directory: D:/Study/C++/Labs/Lab2/build
+"ParseIPTest" start time: Dec 07 08:05 Томск (зима)
+Output:
+----------------------------------------------------------
+Running main() from D:/Study/C++/Labs/Lab2/external/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = ParseIPTest.ValidIP
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParseIPTest
+[ RUN      ] ParseIPTest.ValidIP
+[       OK ] ParseIPTest.ValidIP (0 ms)
+[----------] 1 test from ParseIPTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ParseIPTest" end time: Dec 07 08:05 Томск (зима)
+"ParseIPTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: SortingTest
+2/3 Test: SortingTest
+Command: "D:/Study/C++/Labs/Lab2/build/tests.exe" "--gtest_filter=SortingTest.ReverseLexicographical"
+Directory: D:/Study/C++/Labs/Lab2/build
+"SortingTest" start time: Dec 07 08:05 Томск (зима)
+Output:
+----------------------------------------------------------
+Running main() from D:/Study/C++/Labs/Lab2/external/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SortingTest.ReverseLexicographical
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortingTest
+[ RUN      ] SortingTest.ReverseLexicographical
+[       OK ] SortingTest.ReverseLexicographical (0 ms)
+[----------] 1 test from SortingTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SortingTest" end time: Dec 07 08:05 Томск (зима)
+"SortingTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: FilterTest
+3/3 Test: FilterTest
+Command: "D:/Study/C++/Labs/Lab2/build/tests.exe" "--gtest_filter=FilterTest.FirstByteEqualTo1"
+Directory: D:/Study/C++/Labs/Lab2/build
+"FilterTest" start time: Dec 07 08:05 Томск (зима)
+Output:
+----------------------------------------------------------
+Running main() from D:/Study/C++/Labs/Lab2/external/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = FilterTest.FirstByteEqualTo1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FilterTest
+[ RUN      ] FilterTest.FirstByteEqualTo1
+[       OK ] FilterTest.FirstByteEqualTo1 (0 ms)
+[----------] 1 test from FilterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FilterTest" end time: Dec 07 08:05 Томск (зима)
+"FilterTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 07 08:05 Томск (зима)

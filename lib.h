@@ -12,5 +12,10 @@
 // Определение типа IP-адреса
 using IPAddress = std::array<int, 4>;
 
+// Обьявление функции для парсинга IP-адреса
+auto parseIP(const std::string& ip) -> IPAddress;
+// Обьяввления функции для вывода IP-адресов
+auto printIPs(const std::vector<IPAddress>& ips) -> void;
+
 
 #endif // LIB_H
