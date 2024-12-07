@@ -36,7 +36,7 @@ if(WIN32)
     add_test(NAME FilterTest COMMAND tests.exe --gtest_filter=FilterTest.FirstByteEqualTo1)
 
     set(CPACK_GENERATOR NSIS)
-    set(CPACK_PACKAGE_FILE_NAME "IP-Filter-${PROJECT_VERSION}-Windows")
+    set(CPACK_PACKAGE_FILE_NAME "ip_filter-${PROJECT_VERSION}-Windows")
 
 elseif(UNIX)
     # Для Linux (Ubuntu)

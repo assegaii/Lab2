@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: windows-artifact
-          path: ./IP-Filter-1.0.${{ github.run_number }}-Windows.exe
+          path: ./ip_filter-1.0.${{ github.run_number }}-Windows.exe
   Release:
     runs-on: ubuntu-latest
     permissions: write-all
@@ -79,7 +79,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./ip_filter-1.0.${{ github.run_number }}-Linux.deb
-          asset_name: IF-Filter-1.0.${{ github.run_number }}-Linux.deb
+          asset_name: ip_filter-1.0.${{ github.run_number }}-Linux.deb
           asset_content_type: application/vnd.debian.binary-package
       - name: Upload Windows Asset
         uses: actions/upload-release-asset@v1
@@ -87,6 +87,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./IF-Filter-1.0.${{ github.run_number }}-Windows.exe
-          asset_name: IF-Filter-1.0.${{ github.run_number }}-Windows.exe
+          asset_path: ./ip_filter-1.0.${{ github.run_number }}-Windows.exe
+          asset_name: ip_filter-1.0.${{ github.run_number }}-Windows.exe
           asset_content_type: application/vnd.microsoft.portable-executable
